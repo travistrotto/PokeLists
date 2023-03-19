@@ -10,7 +10,15 @@ html {
     border: 2px solid blue;
 }
 
-.sprite {}
+.sprite {
+    transition: transform 0.2s ease-in-out;
+    /* add a transition to smooth the animation */
+}
+
+.sprite:hover {
+    transform: translateY(-5px);
+    /* translate the sprite 5 pixels up when hovered */
+}
 
 .wrapper {
     border: 1px solid #818D98;
