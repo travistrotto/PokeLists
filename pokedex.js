@@ -1,1 +1,1 @@
-const images = ['1milcery.png', '2milotic.png', '3miltank.png']
+const images = ['1bulbasaur.png', '2cyndaquil.png', '3mudkip.png']
