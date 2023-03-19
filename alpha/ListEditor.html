@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pokemon List Creator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <h2>Create a new list</h2>
+        <form>
+            <input type="text" id="listNameInput" placeholder="Enter list name">
+            <button type="button" onclick="createList()">Create</button>
+        </form>
+        <hr>
+        <h2>My Lists</h2>
+        <ul id="listContainer">
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>Pokemon List Creator</h1>
+        <ul id="pokemonList">
+            <!-- Pokemon list will be generated dynamically -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
